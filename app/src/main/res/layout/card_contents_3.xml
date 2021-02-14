@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:text="Android Game Programming by Example"
+        android:textColor="@color/light_grey" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_3"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn Android from scratch by building 6 playable games"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:textColor="@color/light_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUY NOW"
+        android:layout_margin="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/magenta"
+        android:clickable="true" />
+
+</LinearLayout>
